@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บะหมี่กองโจร</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" class="nav-logo">
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active-red" href="index.html">หน้าแรก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">เมนูอาหาร</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html">สั่งอาหาร</a></li>
+                    <li class="nav-item"><a class="nav-link" href="info.html">ข้อมูลเพิ่มเติม</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <div class="slider-image" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1350&q=80');">
+                    <div class="carousel-caption">
+                        <h1 class="display-3 fw-bold">บะหมี่<span class="text-red">กองโจร</span></h1>
+                        <p class="lead fw-light">รสชาติที่ต้องออกตามล่า ความอร่อยที่ซ่อนอยู่</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <div class="slider-image" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&w=1350&q=80');">
+                    <div class="carousel-caption">
+                        <h1 class="display-3 fw-bold">สูตรลับ<span class="text-red">เข้มข้น</span></h1>
+                        <p class="lead fw-light">คัดสรรวัตถุดิบชั้นเลิศ เพื่อมื้อพิเศษของคุณ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section class="container my-5 py-5">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold fs-1">โปรโมชั่น<span class="text-red">พิเศษ</span></h2>
+            <div class="title-underline"></div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="promo-card h-100">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1623341214825-9f4f963727da?auto=format&fit=crop&w=500&q=80" alt="Menu 1">
+                        <div class="price-badge">฿89</div>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="fw-bold">หมูสามฉ่ำกองโจร</h4>
+                        <p class="text-secondary fw-light">บะหมี่เส้นสดท็อปด้วยหมูสามชั้นสไลด์บางฉ่ำซอส</p>
+                        <button class="btn btn-red w-100 mt-2">สั่งเลย</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="promo-card h-100">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=500&q=80" alt="Menu 2">
+                        <div class="price-badge">HOT</div>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="fw-bold">เซตล่าสมบัติ</h4>
+                        <p class="text-secondary fw-light">รวมมิตรเครื่องเคียงกองโจร บะหมี่ เกี๊ยว และหมูแดง</p>
+                        <button class="btn btn-red w-100 mt-2">สั่งเลย</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="promo-card h-100">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1544124499-58912cbddada?auto=format&fit=crop&w=500&q=80" alt="Menu 3">
+                        <div class="price-badge">NEW</div>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="fw-bold">บะหมี่แห้งซอสดำ</h4>
+                        <p class="text-secondary fw-light">เมนูใหม่ท้าให้ลอง ซอสดำสูตรเข้มข้นฉบับมินิมอล</p>
+                        <button class="btn btn-red w-100 mt-2">สั่งเลย</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 border-top border-secondary">
+        <p class="text-secondary small mb-0">&copy; 2026 บะหมี่กองโจร. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
